@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--Logan Robison, 8/9/22-->
+<html lang="en">
+
+<head>
+    <title>Tableau</title>
+    <link rel="stylesheet" href="../styles/mystyles.css" type="text/css">
+    <link rel="stylesheet" href="../styles/tabStyle.css" type="text/css">
+</head>
+
+<body class="background">
+    <!-- header  -->
+    <div id="top" class="header global">
+        <div class="navLinks">
+            <span class="anchor">
+                <a class="nodecor" href="#state">States view</a> |
+                <a class="nodecor" href="#profit">Best state profit</a> |
+                <a class="nodecor" href="#category">Best profit by category</a> |
+                <a class="nodecor" href="#forcast">Profit forcast</a>
+            </span>
+            <a class="nodecor" href="../index.html">Home</a> &nbsp;
+            <a class="nodecor" href="./aboutme.html">About</a>
+        </div>
+    </div>
+
+    <!-- body  -->
+    <div class="body global">
+        <div>
+            <span id="state"></span>
+            <!-- states view -->
+            <div class='tableauPlaceholder' id='viz1660000931947' style='position: relative'><noscript><a href='#'><img
+                            alt='Prophet by State '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DF&#47;DFBQTY26J&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='path' value='shared&#47;DFBQTY26J' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DF&#47;DFBQTY26J&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1660000931947');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <div class="caption">
+                California is the most profitable state, Texas is the least profitable
+            </div>
+            <br>
+            <br>
+            <!-- CA profit  -->
+            <span id="profit"></span>
+            <div class='tableauPlaceholder' id='viz1660001133613' style='position: relative'><noscript><a href='#'><img
+                            alt='Prophet in CA: Dec 2012 - Dec 2014 '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauforIS201_16600008707380&#47;Sheet2&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='TableauforIS201_16600008707380&#47;Sheet2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauforIS201_16600008707380&#47;Sheet2&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1660001133613');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <div class="caption">
+                For the years of 2013 - 2014, profits in CA were highest November 2013 and lowest February 2013
+            </div>
+            <br>
+            <br>
+            <!-- prophet by category -->
+            <span id="category"></span>
+            <div class='tableauPlaceholder' id='viz1660001238840' style='position: relative'><noscript><a href='#'><img
+                            alt='Prophet by Category in CA '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauforIS201_16600008707380&#47;Sheet3&#47;1_rss.png'
+                            style='border: none;' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='TableauforIS201_16600008707380&#47;Sheet3' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauforIS201_16600008707380&#47;Sheet3&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1660001238840');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <div class="caption">
+                In CA, office supplies have higher profit than technology by approxamately $8000 and a higher profit
+                than furniture by nearly $29000
+            </div>
+            <br>
+            <br>
+            <!-- forcast  -->
+            <span id="forcast"></span>
+            <div class='tableauPlaceholder' id='viz1660001281925' style='position: relative'><noscript><a href='#'><img
+                            alt='Forcast of CA Office Supply Sales '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauforIS201_16600008707380&#47;Sheet4&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='TableauforIS201_16600008707380&#47;Sheet4' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauforIS201_16600008707380&#47;Sheet4&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1660001281925');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+            <div class="caption">
+                Sales for the next year is forcasted to increase steadily from 3800, however there is a very large
+                margin of error
+            </div>
+            <hr>
+            <br> &nbsp;
+            For more information about Tableau or to create your own dashboard, visit
+            <a href="https://www.tableau.com/" class="intextLink">www.tableau.com</a>
+            <br> &nbsp;
+            <br> &nbsp;
+            <br> &nbsp;
+        </div>
+    </div>
+    <!-- footer  -->
+    <div class="footer global">
+        <div class="ftext">
+            Copyright &copy; Logan Robison 2022
+            <a class="nodecor flink" href="#top">Return to top</a>
+        </div>
+    </div>
+</body>
+</html>

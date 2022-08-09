@@ -1,0 +1,80 @@
+/* global conditions */
+.global{
+    position: absolute;
+}
+
+.background{
+    background-color: whitesmoke;
+}
+
+/* header block  */
+.header{
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    height: 50px;
+}
+
+/* body block  */
+.body{
+    left: 12px;
+    right: 12px;
+    top: 56px;
+    bottom: auto;
+}
+
+/* Footer block  */
+.footer{
+    position: fixed;
+    left: 3px;
+    right: 3px;
+    bottom: 2px;
+    height: 30px;
+}
+
+/* Navigation link style */
+.navLinks{
+    text-align: right;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+    padding: 12px;
+    margin-right: 160px;    
+}
+
+/* on page anchors */
+.anchor{
+    float: left;
+}
+
+/* takes of text-decoration */
+.nodecor{
+    text-decoration: none;
+}
+
+/* links are underlined while hovering */
+a:hover{
+    text-decoration: underline;
+}
+
+/* makes text small and italic */
+.ftext{
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* change links in footer  */
+.flink{
+    font-style: normal;
+    font-size: 20px;
+    float: right;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+/* style the tableau captions */
+.caption{
+    font-size: 25px;
+    font-weight: bold;
+}
